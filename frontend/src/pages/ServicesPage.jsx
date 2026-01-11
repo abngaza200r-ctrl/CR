@@ -9,11 +9,17 @@ import { Input } from "../components/ui/input";
 import { Button } from "../components/ui/button";
 
 const categories = [
-  { slug: "all", name: "All Services", icon: LayoutGrid },
-  { slug: "social_media", name: "Social Media", icon: TrendingUp },
-  { slug: "digital_accounts", name: "Digital Accounts", icon: Users },
-  { slug: "gaming", name: "Gaming Credits", icon: Gamepad2 },
-  { slug: "digital_currency", name: "Digital Currency", icon: CreditCard },
+  { slug: "all", name: "الكل", icon: LayoutGrid },
+  { slug: "instagram", name: "انستقرام", icon: TrendingUp },
+  { slug: "tiktok", name: "تيك توك", icon: TrendingUp },
+  { slug: "youtube", name: "يوتيوب", icon: TrendingUp },
+  { slug: "twitter", name: "تويتر X", icon: TrendingUp },
+  { slug: "facebook", name: "فيسبوك", icon: Users },
+  { slug: "snapchat", name: "سناب شات", icon: Users },
+  { slug: "telegram", name: "تيليجرام", icon: Users },
+  { slug: "subscriptions", name: "اشتراكات", icon: CreditCard },
+  { slug: "gaming", name: "ألعاب", icon: Gamepad2 },
+  { slug: "giftcards", name: "بطاقات", icon: CreditCard },
 ];
 
 const ServicesPage = () => {
@@ -93,11 +99,11 @@ const ServicesPage = () => {
           className="mb-12"
         >
           <h1 className="font-orbitron text-4xl sm:text-5xl font-bold text-white mb-4">
-            DIGITAL <span className="gradient-text">SERVICES</span>
+            جميع <span className="gradient-text">الخدمات</span>
           </h1>
           <p className="text-white/50 max-w-2xl">
-            Browse our collection of premium digital services, accounts, and credits.
-            All products come with instant delivery and 24/7 support.
+            تصفح مجموعتنا من خدمات السوشيال ميديا والاشتراكات والألعاب.
+            جميع المنتجات مع توصيل فوري ودعم 24/7.
           </p>
         </motion.div>
 

@@ -6,17 +6,45 @@ import { useCart, useAuth } from "../App";
 import { useNavigate } from "react-router-dom";
 
 const categoryColors = {
-  social_media: "from-pink-500 to-purple-500",
-  digital_accounts: "from-orange-500 to-red-500",
-  gaming: "from-cyan-500 to-green-500",
-  digital_currency: "from-blue-500 to-indigo-500",
+  instagram: "from-pink-500 to-purple-500",
+  tiktok: "from-cyan-400 to-pink-500",
+  youtube: "from-red-500 to-red-600",
+  twitter: "from-blue-400 to-blue-600",
+  facebook: "from-blue-500 to-indigo-600",
+  snapchat: "from-yellow-400 to-yellow-500",
+  telegram: "from-blue-400 to-cyan-500",
+  spotify: "from-green-500 to-green-600",
+  soundcloud: "from-orange-500 to-orange-600",
+  threads: "from-gray-600 to-gray-800",
+  linkedin: "from-blue-600 to-blue-700",
+  discord: "from-indigo-500 to-purple-600",
+  twitch: "from-purple-500 to-purple-700",
+  kick: "from-green-400 to-green-600",
+  kwai: "from-orange-400 to-red-500",
+  subscriptions: "from-cyan-500 to-blue-500",
+  gaming: "from-green-500 to-emerald-600",
+  giftcards: "from-amber-500 to-orange-500",
 };
 
 const categoryLabels = {
-  social_media: "Social Media",
-  digital_accounts: "Accounts",
-  gaming: "Gaming",
-  digital_currency: "Currency",
+  instagram: "انستقرام",
+  tiktok: "تيك توك",
+  youtube: "يوتيوب",
+  twitter: "تويتر",
+  facebook: "فيسبوك",
+  snapchat: "سناب شات",
+  telegram: "تيليجرام",
+  spotify: "سبوتيفاي",
+  soundcloud: "ساوند كلاود",
+  threads: "ثريدز",
+  linkedin: "لينكد إن",
+  discord: "ديسكورد",
+  twitch: "تويتش",
+  kick: "كيك",
+  kwai: "كواي",
+  subscriptions: "اشتراكات",
+  gaming: "ألعاب",
+  giftcards: "بطاقات",
 };
 
 const ProductCard = ({ product, index = 0 }) => {
