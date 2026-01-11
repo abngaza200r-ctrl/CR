@@ -1,0 +1,177 @@
+{
+  "identity": {
+    "name": "E1",
+    "role": "The Anti-AI Designer",
+    "mission": "Create a top 1% Cyberpunk E-commerce experience that breaks generic templates.",
+    "principles": [
+      "Fusion over Imitation: Mix Cyberpunk aesthetics with Swiss Grid precision.",
+      "Emotion First: Every interaction must feel 'electric' and 'fast'.",
+      "Content is King: Products are the heroes; the UI is the stage.",
+      "Zoom In: High-fidelity details on product cards.",
+      "Negative Space: Dark void spaces to make neon pop.",
+      "Contrast: High-contrast neon against deep black."
+    ]
+  },
+  "brand": {
+    "name": "Mohamed Arqoub Digital Store",
+    "tone": "Futuristic, Trustworthy, High-Energy, Elite",
+    "archetype": "Electric & Neon (Archetype 2)",
+    "keywords": ["Cyberpunk", "Neon", "Speed", "Digital", "Glass"]
+  },
+  "typography": {
+    "primary_font": "Orbitron",
+    "secondary_font": "Manrope",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap",
+    "usage": {
+      "headings": "font-orbitron tracking-wider uppercase",
+      "body": "font-manrope tracking-wide",
+      "ui_elements": "font-manrope font-medium tracking-wide",
+      "code": "font-mono"
+    }
+  },
+  "colors": {
+    "palette": {
+      "background": "#030014",
+      "foreground": "#ffffff",
+      "primary": "#00f3ff",
+      "primary_foreground": "#000000",
+      "secondary": "#bc13fe",
+      "secondary_foreground": "#ffffff",
+      "accent": "#ff0055",
+      "accent_foreground": "#ffffff",
+      "muted": "rgba(255, 255, 255, 0.05)",
+      "muted_foreground": "#a1a1aa",
+      "card": "rgba(255, 255, 255, 0.03)",
+      "card_foreground": "#ffffff",
+      "border": "rgba(255, 255, 255, 0.1)"
+    },
+    "gradients": {
+      "hero_text": "bg-clip-text text-transparent bg-gradient-to-r from-[#00f3ff] via-[#bc13fe] to-[#ff0055]",
+      "button_primary": "bg-gradient-to-r from-[#00f3ff] to-[#bc13fe] hover:from-[#00c2cc] hover:to-[#960fcc]",
+      "glass_surface": "bg-white/5 backdrop-blur-xl border border-white/10"
+    },
+    "css_variables": {
+      ":root": {
+        "--background": "240 100% 4%",
+        "--foreground": "0 0% 100%",
+        "--card": "240 10% 4%",
+        "--card-foreground": "0 0% 100%",
+        "--popover": "240 10% 4%",
+        "--popover-foreground": "0 0% 100%",
+        "--primary": "183 100% 50%",
+        "--primary-foreground": "0 0% 0%",
+        "--secondary": "283 99% 54%",
+        "--secondary-foreground": "0 0% 100%",
+        "--muted": "240 5% 15%",
+        "--muted-foreground": "240 5% 65%",
+        "--accent": "340 100% 50%",
+        "--accent-foreground": "0 0% 100%",
+        "--destructive": "0 62.8% 30.6%",
+        "--destructive-foreground": "0 0% 98%",
+        "--border": "240 5% 20%",
+        "--input": "240 5% 20%",
+        "--ring": "183 100% 50%",
+        "--radius": "0.5rem"
+      }
+    }
+  },
+  "layout": {
+    "spacing_system": "Generous spacing (2x standard). Use p-8, p-12, p-24.",
+    "grid_system": {
+      "marketing": "Mode A: The Tetris Grid (Asymmetrical, 12-col)",
+      "dashboard": "Mode B: The Control Room Grid (Dense, 4-col)"
+    },
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "z_index": {
+      "background": "-10",
+      "content": "10",
+      "sticky": "40",
+      "overlay": "50",
+      "modal": "100"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "relative overflow-hidden rounded-full bg-primary text-primary-foreground font-bold shadow-[0_0_20px_rgba(0,243,255,0.5)] hover:shadow-[0_0_30px_rgba(0,243,255,0.8)] transition-all duration-300",
+      "secondary": "rounded-full border border-white/20 bg-white/5 hover:bg-white/10 backdrop-blur-md text-white transition-all",
+      "ghost": "text-white/70 hover:text-white hover:bg-white/5"
+    },
+    "cards": {
+      "style": "Glassmorphism",
+      "classes": "bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl hover:border-primary/50 transition-colors duration-300"
+    },
+    "inputs": {
+      "style": "Neon Line",
+      "classes": "bg-black/50 border-white/10 focus:border-primary focus:ring-1 focus:ring-primary/50 rounded-lg text-white placeholder:text-white/30"
+    },
+    "navigation": {
+      "style": "Floating Glass",
+      "classes": "fixed top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-5xl bg-black/60 backdrop-blur-xl border border-white/10 rounded-full z-50 px-6 py-3"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-white/5 border border-white/10",
+    "neon_glow": "shadow-[0_0_15px_rgba(0,243,255,0.3)]",
+    "gradients": "Use mesh gradients in backgrounds, never on text unless it's a hero title.",
+    "textures": "Add a subtle noise texture overlay on the entire body with opacity-5 pointer-events-none fixed inset-0 z-[9999]."
+  },
+  "motion": {
+    "library": "framer-motion",
+    "defaults": {
+      "duration": 0.4,
+      "ease": [0.22, 1, 0.36, 1]
+    },
+    "types": {
+      "fade_up": "initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}",
+      "scale_in": "initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}",
+      "hover_lift": "whileHover={{ y: -5 }}"
+    }
+  },
+  "images": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1758404196311-70c62a445e9c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxjeWJlcnB1bmslMjBuZW9uJTIwY2l0eSUyMGZ1dHVyaXN0aWN8ZW58MHx8fHwxNzY4MTM4NDU1fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Cyberpunk City Skyline",
+      "usage": "Hero section background with heavy overlay"
+    },
+    "categories": {
+      "gaming": {
+        "url": "https://images.unsplash.com/photo-1629148769165-069e8a9e8a30?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjBzZXR1cCUyMG5lb24lMjBsaWdodHMlMjBkYXJrJTIwcm9vbXxlbnwwfHx8fDE3NjgxMzg0NjF8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Neon Gaming Setup"
+      },
+      "social_media": {
+        "url": "https://images.unsplash.com/photo-1513461314532-30fd5c3d34dd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwzfHwzZCUyMHJlbmRlciUyMHNvY2lhbCUyMG1lZGlhJTIwaWNvbnMlMjBmbG9hdGluZyUyMG5lb258ZW58MHx8fHwxNzY4MTM4NDU3fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Neon Social Media Icons"
+      },
+      "software": {
+        "url": "https://images.unsplash.com/photo-1709338787547-1539f8eb2c92?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHw0fHwzZCUyMHJlbmRlciUyMHNvY2lhbCUyMG1lZGlhJTIwaWNvbnMlMjBmbG9hdGluZyUyMG5lb258ZW58MHx8fHwxNzY4MTM4NDU3fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Digital Software Abstract"
+      }
+    },
+    "placeholders": {
+      "user_avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Felix",
+      "product_default": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80"
+    }
+  },
+  "icons": {
+    "library": "lucide-react",
+    "style": "Stroke width 1.5px, size 20px or 24px"
+  },
+  "instructions_to_main_agent": [
+    "1. SETUP: Install 'framer-motion', 'lucide-react', 'clsx', 'tailwind-merge' immediately.",
+    "2. FONTS: Add the Google Fonts link to the <head> of index.html or import in index.css.",
+    "3. THEME: Overwrite the CSS variables in 'src/index.css' with the provided Cyberpunk palette.",
+    "4. COMPONENTS: When using Shadcn components, ALWAYS override the default styles to match the 'Glassmorphism' aesthetic defined in 'components' section. Do not use default white/black cards.",
+    "5. LAYOUT: Use the 'Tetris Grid' for the landing page. Don't just stack sections vertically.",
+    "6. IMAGES: Use the provided Unsplash URLs. Do not use placeholders.",
+    "7. MOTION: Apply 'fade_up' animation to all major sections on scroll.",
+    "8. GLASS: Ensure all overlays (modals, dropdowns, sticky headers) use 'backdrop-blur-xl' and 'bg-black/60' (or similar) to ensure text readability over the complex background.",
+    "9. TESTING: Add 'data-testid' to all interactive elements."
+  ],
+  "universal_guidelines": [
+    "Do not use gradients on body text.",
+    "Ensure contrast ratio is at least 4.5:1 for normal text.",
+    "Use 'cursor-pointer' on all interactive elements.",
+    "Never use default scrollbars; style them to be thin and dark.",
+    "Avoid 'lorem ipsum' where possible; use realistic copy related to Digital Services (e.g., 'Boost your reach', 'Level up your game')."
+  ]
+}
