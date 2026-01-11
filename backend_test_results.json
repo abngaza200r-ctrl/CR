@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "total_tests": 16,
+    "passed_tests": 16,
+    "failed_tests": 0,
+    "success_rate": 100.0
+  },
+  "test_results": [
+    {
+      "test": "Health Check",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:30.673965"
+    },
+    {
+      "test": "Seed Data",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:30.712297"
+    },
+    {
+      "test": "Get Categories",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:30.788664"
+    },
+    {
+      "test": "Get All Products",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:30.826429"
+    },
+    {
+      "test": "Get Single Product",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:30.859173"
+    },
+    {
+      "test": "Contact Form",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:30.941548"
+    },
+    {
+      "test": "User Registration",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:31.244729"
+    },
+    {
+      "test": "Get User Profile",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:31.285316"
+    },
+    {
+      "test": "Get Cart",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:31.336555"
+    },
+    {
+      "test": "Add to Cart",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:31.413272"
+    },
+    {
+      "test": "Update Cart",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:31.448892"
+    },
+    {
+      "test": "Get Cart",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:31.491396"
+    },
+    {
+      "test": "Get Orders",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:31.530748"
+    },
+    {
+      "test": "Add Item for Checkout",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:31.568662"
+    },
+    {
+      "test": "Create Checkout Session",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:31.964612"
+    },
+    {
+      "test": "Remove from Cart",
+      "success": true,
+      "details": "",
+      "timestamp": "2026-01-11T13:50:32.004489"
+    }
+  ],
+  "timestamp": "2026-01-11T13:50:32.005299"
+}
