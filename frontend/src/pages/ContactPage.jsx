@@ -54,14 +54,14 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: "Email Us",
-      value: "support@marqoub.store",
+      value: "moammdsal@gmail.com",
       description: "We'll respond within 24 hours",
     },
     {
       icon: MessageSquare,
-      title: "Live Chat",
-      value: "Available 24/7",
-      description: "Get instant help from our team",
+      title: "Phone",
+      value: "+972 59-995-0104",
+      description: "Call us anytime",
     },
     {
       icon: Clock,
