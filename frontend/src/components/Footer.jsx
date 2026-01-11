@@ -25,7 +25,7 @@ const Footer = () => {
 
   const socialLinks = [
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Instagram, href: "#", label: "Instagram" },
+    { icon: Instagram, href: "https://instagram.com/uvvlj", label: "Instagram" },
     { icon: Youtube, href: "#", label: "YouTube" },
     { icon: MessageCircle, href: "#", label: "Discord" },
   ];
