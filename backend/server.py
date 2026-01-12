@@ -407,11 +407,16 @@ async def create_checkout_session(checkout_req: CheckoutRequest, request: Reques
     if not cart or not cart.get("items"):
         raise HTTPException(status_code=400, detail="Cart is empty")
     
+    # Batch query for all products (prevent N+1)
+    product_ids = [item["product_id"] for item in cart["items"]]
+    products = await db.products.find({"product_id": {"$in": product_ids}}, {"_id": 0}).to_list(None)
+    product_map = {p["product_id"]: p for p in products}
+    
     # Calculate total from database (prevent price manipulation)
     total = 0.0
     order_items = []
     for item in cart["items"]:
-        product = await db.products.find_one({"product_id": item["product_id"]}, {"_id": 0})
+        product = product_map.get(item["product_id"])
         if product:
             item_total = product["price"] * item["quantity"]
             total += item_total
