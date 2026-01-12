@@ -42,9 +42,9 @@ const Footer = () => {
               </div>
               <div>
                 <span className="font-orbitron font-bold text-xl text-[#00f3ff]">
-                  Mohammed Abo Arqoub
+                  متجر Mohamed Abo Arqoub
                 </span>
-                <span className="block text-white/60 text-sm">Digital Store</span>
+                <span className="block text-white/60 text-sm">خدمات رقمية</span>
               </div>
             </Link>
             <p className="text-white/60 mb-6 max-w-sm">
@@ -128,7 +128,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-sm">
-            © {currentYear} Mohammed Abo Arqoub Digital Store. All rights reserved.
+            © {currentYear} متجر Mohamed Abo Arqoub. جميع الحقوق محفوظة.
           </p>
           <div className="flex gap-6">
             {footerLinks.legal.map((link) => (

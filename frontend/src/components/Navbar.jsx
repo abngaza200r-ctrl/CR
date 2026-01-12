@@ -54,8 +54,8 @@ const Navbar = () => {
                 <Zap className="w-5 h-5 text-black" />
               </div>
               <span className="font-orbitron font-bold text-lg hidden sm:block tracking-wider">
-                <span className="text-[#00f3ff]">Mohammed</span>
-                <span className="text-white/80 text-sm ml-1">Abo Arqoub</span>
+                <span className="text-[#00f3ff]">متجر</span>
+                <span className="text-white/80 text-sm ml-1">Mohamed Abo Arqoub</span>
               </span>
             </Link>
 
