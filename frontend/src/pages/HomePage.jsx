@@ -121,26 +121,26 @@ const HomePage = () => {
             >
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6">
                 <Sparkles className="w-4 h-4 text-[#00f3ff]" />
-                <span className="text-sm text-white/80">Premium Digital Services</span>
+                <span className="text-sm text-white/80">خدمات رقمية مميزة</span>
               </div>
 
               <h1 className="font-orbitron text-4xl sm:text-5xl lg:text-6xl font-black leading-tight mb-6">
-                <span className="text-white">YOUR ONE-STOP</span>
+                <span className="text-white">متجر</span>
                 <br />
-                <span className="gradient-text">DIGITAL SERVICES</span>
+                <span className="gradient-text">Mohammed Abo Arqoub</span>
                 <br />
-                <span className="text-white">STORE</span>
+                <span className="text-white">للخدمات الرقمية</span>
               </h1>
 
               <p className="text-lg text-white/60 mb-8 max-w-lg">
-                Fast, secure, and reliable digital services at your fingertips. 
-                From social media growth to gaming credits, we've got you covered.
+                خدمات رقمية سريعة وآمنة وموثوقة في متناول يديك. 
+                من تنمية حساباتك على مواقع التواصل الاجتماعي إلى الحصول على رصيد الألعاب، نحن نوفر لك كل ما تحتاجه.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/services" data-testid="hero-browse-btn">
                   <Button className="gradient-btn rounded-full px-8 py-6 text-black font-bold text-lg group">
-                    Browse Services
+                    تصفح الخدمات
                     <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                 </Link>
@@ -149,7 +149,7 @@ const HomePage = () => {
                     variant="outline"
                     className="rounded-full px-8 py-6 border-white/20 text-white hover:bg-white/10 font-bold text-lg"
                   >
-                    Get Started
+                    ابدأ الآن
                   </Button>
                 </Link>
               </div>
@@ -157,16 +157,16 @@ const HomePage = () => {
               {/* Stats */}
               <div className="flex gap-8 mt-12">
                 <div>
-                  <p className="font-orbitron text-3xl font-bold text-[#00f3ff]">50K+</p>
-                  <p className="text-white/50 text-sm">Happy Customers</p>
+                  <p className="font-orbitron text-3xl font-bold text-[#00f3ff]">+50 ألف</p>
+                  <p className="text-white/50 text-sm">عميل سعيد</p>
                 </div>
                 <div>
                   <p className="font-orbitron text-3xl font-bold text-[#bc13fe]">99.9%</p>
-                  <p className="text-white/50 text-sm">Success Rate</p>
+                  <p className="text-white/50 text-sm">معدل النجاح</p>
                 </div>
                 <div>
                   <p className="font-orbitron text-3xl font-bold text-[#ff0055]">24/7</p>
-                  <p className="text-white/50 text-sm">Support</p>
+                  <p className="text-white/50 text-sm">دعم متواصل</p>
                 </div>
               </div>
             </motion.div>
